@@ -43,7 +43,9 @@ Validated the model with validation data set, displayed the image with the predi
 I have implemented the Convolutional Neural Network for the classification of Gurumukhi dataset. Given dataset is divided into training and test dataset. It was taken to make predictions of handwritten digits from 0 to 9. The dataset was cleaned, scaled, and shaped. 
 Using without using TensorFlow, a CNN model was created for multiclass classification with softmax and was eventually trained on the training dataset. Finally, predictions were made using the trained model.
 ## References
-•	Neural Network python from scratch for MultiClass Classification with Softmax    https://www.youtube.com/watch?v=vtx1iwmOx10digits_recognition_neural_network - https://github.com/codebasics/deep-learning-keras-tf-tutorial/blob/master/1_digits_recognition/digits_recognition_neural_network.ipynb
-•	YouTube- Neural Network For Handwritten Digits Classification | Deep Learning Tutorial 7 (Tensorflow2.0) -https://www.youtube.com/watch?v=iqQgED9vV7k&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=7
-•	YouTube- Text Detection using Neural Networks | OPENCV Python https://www.youtube.com/watch?v=y1ZrOs9s2QA
-•	Deep Learning Project – Handwritten Digit Recognition using Python -https://data-flair.training/blogs/python-deep-learning-project-handwritten-digit-recognition/
+ -	Neural Network python from scratch for MultiClass Classification with Softmax   
+ - https://www.youtube.com/watch?v=vtx1iwmOx10digits_recognition_neural_network 
+ - https://github.com/codebasics/deep-learning-keras-tf-tutorial/blob/master/1_digits_recognition/digits_recognition_neural_network.ipynb
+ -	YouTube- Neural Network For Handwritten Digits Classification | Deep Learning Tutorial 7 (Tensorflow2.0) -https://www.youtube.com/watch?v=iqQgED9vV7k&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=7
+- 	YouTube- Text Detection using Neural Networks | OPENCV Python https://www.youtube.com/watch?v=y1ZrOs9s2QA
+- Deep Learning Project – Handwritten Digit Recognition using Python -https://data-flair.training/blogs/python-deep-learning-project-handwritten-digit-recognition/
