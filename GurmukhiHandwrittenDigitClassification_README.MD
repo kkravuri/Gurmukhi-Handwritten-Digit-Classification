@@ -30,23 +30,26 @@ We will use a conservative configuration for the stochastic gradient descent opt
 ### Step :7 Compile, fit and Evaluate Model
 Once the model has been created, it is time to compile it and fit the model. During the process of fitting, the model will go through the dataset and understand the relations. It will learn throughout the process as many times as has been defined. In our example, we have defined different epochs. During the process, the CNN model will learn and make mistakes. For every mistake (i.e., wrong predictions) the model makes, there is a penalty and that is represented in the loss value for each epoch. In short, the model should generate as little loss and as high accuracy as possible at the end of the last epoch.
 
- 
+ ![image](https://user-images.githubusercontent.com/69726245/235210995-f5ac3669-6722-432c-a5a1-77e2f11439a8.png)
+
 
 I have implemented 4 different models to increase the accuracy. From the above image we can clearly see that model 4 is giving higher accuracy compared to the other models.
 ### Step 8: Plot the change in accuracy and loss per epochs¶
 plotted the curve to check the variation of accuracy and loss as the number of epochs increases in each model for this I have used, matplotlib to plot the curve.
 For each model we can clear see the increase in accuracy and decrease in loss.
+![image](https://user-images.githubusercontent.com/69726245/235211126-d6013cb3-7154-4d8b-a50d-cf2a3e05668f.png)
 
  
 ### Step 9: Confusion Matrix for each model with validation data
- 
+![image](https://user-images.githubusercontent.com/69726245/235211238-11cc09dc-202f-430c-9806-0d9a1969248f.png)
+
 
 ### Step 10: Conclusion
 I have implemented the Convolutional Neural Network for the classification of Gurumukhi dataset. Given dataset is divided into training and test dataset. It was taken to make predictions of handwritten digits from 0 to 9. The dataset was cleaned, scaled, and shaped. Using TensorFlow, a CNN model was created and was eventually trained on the training dataset. Finally, predictions were made using the trained model. Loss and accuracy plot for each epoch is implemented and confusion matrix is implemented for each model.
 ## References
-•	MNIST: Simple CNN keras (Accuracy : 0.99)=>Top 1% - https://www.kaggle.com/code/elcaiseri/mnist-simple-cnn-keras-accuracy-0-99-top-1
-•	digits_recognition_neural_network - https://github.com/codebasics/deep-learning-keras-tf-tutorial/blob/master/1_digits_recognition/digits_recognition_neural_network.ipynb
-•	YouTube- Neural Network For Handwritten Digits Classification | Deep Learning Tutorial 7 (Tensorflow2.0) -https://www.youtube.com/watch?v=iqQgED9vV7k&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=7
-•	YouTube- Text Detection using Neural Networks | OPENCV Python https://www.youtube.com/watch?v=y1ZrOs9s2QA
-•	Deep Learning Project – Handwritten Digit Recognition using Python -https://data-flair.training/blogs/python-deep-learning-project-handwritten-digit-recognition/
+ - MNIST: Simple CNN keras (Accuracy : 0.99)=>Top 1% - https://www.kaggle.com/code/elcaiseri/mnist-simple-cnn-keras-accuracy-0-99-top-1
+ - digits_recognition_neural_network - https://github.com/codebasics/deep-learning-keras-tf-tutorial/blob/master/1_digits_recognition/digits_recognition_neural_network.ipynb
+ - YouTube- Neural Network For Handwritten Digits Classification | Deep Learning Tutorial 7 (Tensorflow2.0) -https://www.youtube.com/watch?v=iqQgED9vV7k&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&index=7
+ - YouTube- Text Detection using Neural Networks | OPENCV Python https://www.youtube.com/watch?v=y1ZrOs9s2QA
+ - Deep Learning Project – Handwritten Digit Recognition using Python -https://data-flair.training/blogs/python-deep-learning-project-handwritten-digit-recognition/
 
